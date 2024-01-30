@@ -1,0 +1,23 @@
+{
+  "name": "basic_node_templete",
+  "version": "1.0.0",
+  "description": "basic boiler template for node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon src/index.js"
+  },
+  "author": "Sagar ray",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.3.0",
+    "mysql2": "^3.9.1",
+    "nodemon": "^3.0.3",
+    "sequelize": "^6.35.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
